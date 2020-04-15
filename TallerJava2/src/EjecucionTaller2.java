@@ -130,6 +130,7 @@ public class EjecucionTaller2 {
                         valorProductoEntero = Integer.parseInt(valorProducto);
                         contadorValor = contadorValor + valorProductoEntero;
                     }while (!idProducto.equals("i"));
+
                     break;
             }
             System.out.println("Ingrese de 1 a 5 para ver la solucion de cada punto");
