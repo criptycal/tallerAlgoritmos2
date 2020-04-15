@@ -130,43 +130,6 @@ public class EjecucionTaller2 {
                         valorProductoEntero = Integer.parseInt(valorProducto);
                         contadorValor = contadorValor + valorProductoEntero;
                     }while (!idProducto.equals("i"));
-                    /*System.out.println("ingrese el id del producto o i para imprimir los datos");
-                    idProducto = sc.nextLine();
-                    if(idProducto.equals("i")){
-                        TiendaTola tienda = new TiendaTola(nombreCliente, fechaEntrada, "", idProducto,
-                                "", "", contadorProductos, 19, 0, 0 );
-                        tienda.analisisDatos();
-                        tienda.imprimirDatos();
-                    }else{
-                        contadorProductos++;
-                        System.out.println("ingrese la fecha");
-                        String fechaCompra = sc.nextLine();
-                        System.out.println("ingrese el valor del producto");
-                        valorProducto = sc.nextLine();
-                        valorProductoEntero = Integer.parseInt(valorProducto);
-                        contadorValor = contadorValor + valorProductoEntero;
-                        TiendaTola tienda = new TiendaTola(nombreCliente, fechaEntrada, fechaCompra, idProducto,
-                                "", "", contadorProductos, 19, 0, 0 );
-                        tienda.analisisDatos();
-                    }
-                    do{
-
-                    }while();*/
-                    /*if (!idProducto.equals("i")){
-                        contadorProductos++;
-                        System.out.println("ingrese la fecha");
-                        String fechaCompra = sc.nextLine();
-                        System.out.println("ingrese el valor del producto");
-                        valorProducto = sc.nextLine();
-                        valorProductoEntero = Integer.parseInt(valorProducto);
-                        contadorValor = contadorValor + valorProductoEntero;
-                        TiendaTola tienda = new TiendaTola(nombreCliente, fechaEntrada, fechaCompra, idProducto,
-                                "", "", contadorProductos, 19, 0, 0 );
-                        tienda.analisisDatos();
-
-
-                    }*/
-
                     break;
             }
             System.out.println("Ingrese de 1 a 5 para ver la solucion de cada punto");
